@@ -3,39 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Lost in Web</title>
 </head>
 <body>
-    <header>
-        <div>
-            <div>
-                <img src="assets/black-heart.webp" alt="Black heart icon">
+    <header class="header">
+        <div class="top-header">
+            <div class="heart-npm">
+                <img src="assets/black-heart.webp" alt="Black heart icon" class="heart">
                 <span>Nifty Penguin Magic</span>
             </div>
-            <nav>
+            <nav class="nav-bar">
                 <ul>
-                    <li>npm Enterprise</li>
-                    <li>Products</li>
-                    <li>Solutions</li>
-                    <li>Resources</li>
-                    <li>Docs</li>
-                    <li>Support</li>
+                    <li><a href="">npm Enterprise</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Solutions</a></li>
+                    <li><a href="">Resources</a></li>
+                    <li><a href="">Docs</a></li>
+                    <li><a href="">Support</a></li>
                 </ul>
             </nav>
         </div>
-        <div>
-            <img src="assets/npm-logo.webp" alt="NPM Logo">
-            <img src="assets/magnifying-glass.png" alt="Search Icon">
+        <div class="search-bar">
+            <img src="assets/npm-logo.webp" alt="NPM Logo" class="logo">
             <form>
-                <input type="text" placeholder="Search packages">
-                <button type="button">Search</button>
+                <img src="assets/magnifying-glass.png" alt="Search Icon" class="search-icon">
+                <input type="text" placeholder="Search packages" class="input" size="500">
+                <button type="button" class="search-button">Search</button>
             </form>
-            <button type="button">Join</button>
-            <button type="button">Log In</button>
+            <a href="#">Join</a>
+            <a href="#">Log In</a>
         </div>
     </header>
-<section>
+<section class="build">
     <h1>Build amazing things</h1>
     <article>Essential JavaScript development tools that help you go to market faster and build powerful applications using modern open source code.</article>
     <button type="button">See plans</button>
@@ -48,22 +48,22 @@
 </section>
 <section>
     <div>
-        <img src="assets/zero-configuration.svg">
+        <img src="assets/zero-configuration.svg" class="icon">
         <h3>Zero configuration </h3>
         <p>Create an org, add your team, and start collaborating. Nothing to configure, set up, or manage.</p>
     </div>
     <div>
-        <img src="assets/team-management.svg">
+        <img src="assets/team-management.svg" class="icon">
         <h3>Team management</h3>
         <p>Control who has access to what modules within your team namespace using straightforward team management capabilities.</p>
     </div>
     <div>
-        <img src="assets/familiar-features.svg">
+        <img src="assets/familiar-features.svg" class="icon">
         <h3>Familiar features</h3>
         <p>npm Orgs has 100% parity with all the public npm registry features your developers already use. </p>
     </div>
     <div>
-        <img src="assets/npm-audit.svg">
+        <img src="assets/npm-audit.svg" class="icon">
         <h3>npm audit</h3>
         <p>Enjoy the security auditing features built into the npm client, a zero-friction way to make open source software safer.</p>
     </div>
