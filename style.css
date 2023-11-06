@@ -116,7 +116,10 @@ h2 {
 h3 {
     color: #ED1C24
 }
-
+.highlight {
+    text-align: left;
+padding-right: 50px;
+}
 .create-button {
     background-color: #000000;
     color: #FFFFFF;
@@ -127,6 +130,6 @@ h3 {
 }
 
 .icon {
-    width: 25px;
+    width: 35px;
     height: auto;
 }
