@@ -39,6 +39,7 @@ input {
 .search-button {
     background-color: #fb3e44;
     color: white;
+    padding: 10px 32px;
 }
 
 .heart {
@@ -55,4 +56,47 @@ input {
     margin-right: 1rem;
 }
 
+#section-1 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 600px;
+    background-color: rgba(232,217,217,.3);
+}
+h1 {
+    padding-top: 5%;
+    font-size: 75px;
+}
+article {
+    padding: 30px;
+    width: 20%;
+}
+.see-plans-button {
+    background-color: #fb3b49;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+    padding: 15px 32px;
+    font-family: 'Poppins';
+    font-size: large;
+    color: white;
+    margin-right: 150px;
 
+}
+#section-2 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hexagon {
+    width: 200px;
+    height: auto;
+}
+#section-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.icon {
+    width: 25px;
+    height: auto;
+}
