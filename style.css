@@ -56,6 +56,7 @@ input {
     margin-right: 1rem;
 }
 
+
 #section-1 {
     display: flex;
     flex-direction: column;
@@ -82,7 +83,12 @@ article {
     font-family: 'Poppins';
     font-size: large;
     color: white;
-    margin-right: 150px;
+}
+.join {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    padding: 25px;
 }
 
 #section-2 {
